@@ -1,8 +1,4 @@
----
-datasets:
-- danjacobellis/LSDIR_540
-- danjacobellis/musdb_segments
----
+
 # Wavelet Learned Lossy Compression
 
 - [Project page and documentation](https://danjacobellis.net/walloc)
@@ -39,12 +35,13 @@ Comparison of WaLLoC with other autoencoder designs for RGB Images and stereo au
 
 ![](https://danjacobellis.net/walloc/_images/audio_comparison.svg)
 
-```
-@article{jacobellis2024learned,
+```bibtex
+@inproceedings{jacobellis2024learned,
   title={Learned Compression for Compressed Learning},
   author={Jacobellis, Dan and Yadwadkar, Neeraja J.},
+  booktitle={IEEE Data Compression Conference (DCC)},
+  note={Preprint}
   year={2024},
-  note={Under review},
   url={http://danjacobellis.net/walloc}
 }
 ```
