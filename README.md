@@ -17,6 +17,17 @@ entropy bottleneck, leading to quantization-resiliant latents. When combined wit
 
 WaLLoC does not require perceptual or adversarial losses to represent high-frequency detail, making it compatible with a wide variety of signal types. It currently supports 1D and 2D signals, including mono, stereo, and multi-channel audio and grayscale, RGB, and hyperspectral images.
 
+```bibtex
+@inproceedings{jacobellis2024learned,
+  title={Learned Compression for Compressed Learning},
+  author={Jacobellis, Dan and Yadwadkar, Neeraja J.},
+  booktitle={IEEE Data Compression Conference (DCC)},
+  note={Preprint}
+  year={2024},
+  url={http://danjacobellis.net/walloc}
+}
+```
+
 ![](https://danjacobellis.net/walloc/_images/walloc.svg)
 WaLLoC’s encode-decode pipeline. The entropy bottleneck and entropy coding steps are only required to achieve high compression ratios for storage and transmission. For compressed-domain learning where dimensionality reduction is the primary goal, these steps can be skipped to reduce overhead and completely eliminate CPU-GPU transfers.
 
@@ -35,16 +46,7 @@ Comparison of WaLLoC with other autoencoder designs for RGB Images and stereo au
 
 ![](https://danjacobellis.net/walloc/_images/audio_comparison.svg)
 
-```bibtex
-@inproceedings{jacobellis2024learned,
-  title={Learned Compression for Compressed Learning},
-  author={Jacobellis, Dan and Yadwadkar, Neeraja J.},
-  booktitle={IEEE Data Compression Conference (DCC)},
-  note={Preprint}
-  year={2024},
-  url={http://danjacobellis.net/walloc}
-}
-```
+
 
 ## Installation
 
